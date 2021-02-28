@@ -5,7 +5,7 @@ import pagerank from './images/pagerank_icon.jpeg';
 const Projects = () => {
     return (
         <div class="bg-white w-10/12 m-auto">
-             <h1 class="text-center text-gray-500 text-3xl mt-4 font-semibold">Projects</h1>
+             <h1 class="text-center text-gray-500 text-3xl mt-6 font-semibold">Projects</h1>
              <section class="px-3 pt-12 pb-0 mx-auto">
                  <div class="flex justify-center">
                     <div class="text-gray-800">
