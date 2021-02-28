@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import './About.js';
+import About from './About.js';
 
 const App = () => {
   return (
