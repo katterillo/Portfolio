@@ -1,10 +1,14 @@
 const About = () => {
     return (
     <div className="Home">
-    <h1> About Me </h1>
-        <div class="flex flex-wrap">
-            <p1 class="text-lg font-semibold text-gray-500"> Hi! My name is Danielle. I am a second-year CpE major at the University of Florida. </p1>
-            <img class="w-32 h-32 md:w-90 md:h-auto" src="https://rehrealestate.com/wp-content/uploads/2015/08/facebook-default-no-profile-pic-girl.jpg"/>
+    <h1 class="text-center"> About Me </h1>
+        <div class="flex grid gap-8 grid-cols-2 gap-30 space-x-9">
+            <div class="border-solid border-4 border-indigo-600 bg-red-300">Hi! My name is Danielle. I am a second-year CpE major at the University of Florida. In my free time, I like to create 
+            applications that create world peace. I am the best coder in the world and you should hire me :)
+            I enjoy _____ and ____ in my free time. I also have particpated in organizations like _______. I am 
+            studying to make an impact on the world.</div>
+            <img class="w-32 h-32 md:w-90 md:h-auto ml-35" src="https://rehrealestate.com/wp-content/uploads/2015/08/facebook-default-no-profile-pic-girl.jpg"/>
+
         </div>
     </div>
     );
