@@ -1,24 +1,26 @@
+import minesweeper from './images/minesweeper_icon.png';
+import pakman from './images/pakman_icon.png';
+import pagerank from './images/pagerank_icon.jpeg';
 const Projects = () => {
     return (
         <div>
-            <h1 class="text-center">Projects</h1>
+            <h1 class="text-center  text-gray-500 text-lg font-semibold">Projects</h1>
             <div class="grid grid-cols-3 gap-4">
                 <div class="inline-block align-top text-center mx-8">
-                    <img class="w-35" src="https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/other/dog_cool_summer_slideshow/1800x1200_dog_cool_summer_other.jpg?resize=750px:*"/>
+                    <img class="w-35 rounded hover:opacity-70" src={minesweeper}/>
                     <div>
-                            <span class="block">Minesweeper - C++</span>
+                            <span class="block text-gray-500 text-lg font-semibold">Minesweeper - C++</span>
                     </div>
                 </div>
                 <div class="inline-block align-top text-center mx-8">
-                    <img class="w-35" src="https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/other/dog_cool_summer_slideshow/1800x1200_dog_cool_summer_other.jpg?resize=750px:*"/>
-                    <h1 class="block">Minesweeper - C++</h1>
+                    <img class="w-35 rounded  hover:opacity-70" src={pakman}/>
+                    <span class="block text-gray-500 text-lg font-semibold">Pakman - Java</span>
                 </div>
                 <div class="inline-block align-top text-center mx-8">
-                    <img class="w-35" src="https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/other/dog_cool_summer_slideshow/1800x1200_dog_cool_summer_other.jpg?resize=750px:*"/>
-                    <h1 class="block">Minesweeper - C++</h1>
+                    <img class="w-35 rounded  hover:opacity-70" src={pagerank}/>
+                    <span class="block text-gray-500 text-lg font-semibold">Page Rank - C++</span>
                 </div>
             </div>
-            
         </div>
     );
 }
