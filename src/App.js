@@ -3,7 +3,6 @@ import './App.css';
 import About from './About.js';
 import Projects from './Projects.js';
 
-
 const App = () => {
   return (
     <div className="App">
