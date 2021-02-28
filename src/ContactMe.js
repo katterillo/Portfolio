@@ -4,10 +4,11 @@ import mail from './images/mail_logo.png';
 
 const ContactMe = () => {
     return (
+        <div class="bg-white w-10/12 m-auto mt-6">
         <div>
         <br/>
-        <h1 class="text-center text-2xl">Get in Touch</h1>
-        <h2 class="text-center text-xl">Feel free to message me about anything. </h2>
+        <h1 class="text-center text-3xl text-gray-500 font-semibold">Get in Touch</h1>
+        <h2 class="text-center text-xl text-gray-500">Feel free to message me about anything. </h2>
         <div class="grid grid-cols-3 gap-0 place-items-center p-28">
         <a href="https://github.com/katterillo/Portfolio">
         <div class="w-32 hover:opacity-70">
@@ -26,7 +27,7 @@ const ContactMe = () => {
           </a>
         </div>
         </div>
-       
+        </div>       
     );
 }
 
