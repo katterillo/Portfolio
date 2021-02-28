@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import About from './About.js';
 import Projects from './Projects.js';
+import "tailwindcss/tailwind.css"
 
 
 const App = () => {
