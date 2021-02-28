@@ -1,6 +1,7 @@
 import minesweeper from './images/minesweeper_icon.png';
 import pakman from './images/pakman_icon.png';
 import pagerank from './images/pagerank_icon.jpeg';
+
 const Projects = () => {
     return (
         <div>
@@ -21,7 +22,15 @@ const Projects = () => {
                     <span class="block text-gray-500 text-lg font-semibold">Page Rank - C++</span>
                 </div>
             </div>
-        </div>
+        </div> 
     );
 }
 export default Projects;
+
+function Minesweeper(){
+    return(
+        <div>
+            <h2>Minesweeper</h2>
+        </div>
+    );
+}
