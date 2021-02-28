@@ -6,7 +6,7 @@ import Projects from './Projects.js';
 const App = () => {
   return (
     <div className="App">
-      <h1> Hello World </h1>
+      <h1 class="text-blue-500 text-center"> My Personal Website :) </h1>
       <About/>
       <Projects/>
     </div>
